@@ -12,7 +12,7 @@ jobs:
             - name: "Checkout"
               uses: actions/checkout@v2
 
-            - name: "Run PHP-CS-Fixer"
+            - name: "Run PHP-CS-Fixer2"
               uses: docker://oskarstark/php-cs-fixer-ga:2.16.1
               with:
                   args: --ansi --verbose --diff --dry-run
